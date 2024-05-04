@@ -1,7 +1,7 @@
 [project]
-name = "python-project-template"
-version = "0.0.0"
-description = "A template for PDM projects in Python"
+name = "pdm-python-project-template"
+version = "0.1.0"
+description = "A template for python projects in PDM"
 authors = [
     {name = "Daniel Tan", email = "dtch1997@users.noreply.github.com"},
 ]
@@ -20,7 +20,6 @@ test = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-
 [tool.pdm]
 distribution = true
 
@@ -30,7 +29,7 @@ venv = ".venv"
 
 [tool.semantic_release]
 version_variables = [
-    "python_project_template/__init__.py:__version__",
+    "pdm_python_project_template/__init__.py:__version__",
     "pyproject.toml:version",
 ]
 branch = "main"
