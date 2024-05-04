@@ -2,6 +2,13 @@
 
 
 
+## v0.1.2 (2024-05-04)
+
+### Fix
+
+* fix: rerun ci ([`a9c08d9`](https://github.com/90HH/pdm-python-project-template/commit/a9c08d9d934c5acaa531bdf3234c45ca7506e6d2))
+
+
 ## v0.1.1 (2024-05-04)
 
 ### Fix
