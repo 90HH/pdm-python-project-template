@@ -55,9 +55,7 @@ jobs:
     name: upload release to PyPI
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-      issues: write
-      pull-requests: write
+      contents: read
       id-token: write
     environment:
       # Same environment name configured in PyPI trusted publisher
