@@ -2,6 +2,15 @@
 
 
 
+## v0.1.3 (2024-05-04)
+
+### Fix
+
+* fix: ci ([`56d320d`](https://github.com/90HH/pdm-python-project-template/commit/56d320dee9a6d74798232bce1369b464f4f14773))
+
+* fix: ci ([`2f97552`](https://github.com/90HH/pdm-python-project-template/commit/2f97552199f4c6df642d5ff23b0020c996245979))
+
+
 ## v0.1.2 (2024-05-04)
 
 ### Fix
