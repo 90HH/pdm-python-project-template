@@ -3,7 +3,7 @@
 # Quickstart
 
 ```bash
-pip install python-project-template
+pip install pdm-python-project-template
 ```
 
 # Development
