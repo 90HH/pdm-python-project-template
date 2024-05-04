@@ -27,3 +27,10 @@ distribution = true
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
+
+[tool.semantic_release]
+version_variables = [
+    "python_project_template/__init__.py:__version__",
+    "pyproject.toml:version",
+]
+branch = "main"
