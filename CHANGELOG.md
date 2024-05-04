@@ -2,6 +2,17 @@
 
 
 
+## v0.1.0 (2024-05-04)
+
+### Chore
+
+* chore: redefine project slug ([`25c8b91`](https://github.com/90HH/python-project-template/commit/25c8b91c0b753d509663670d3be7c3c8448fb91e))
+
+### Feature
+
+* feat: version ([`097c318`](https://github.com/90HH/python-project-template/commit/097c318989ced7c7c426b9a8e44ee67d60c4d51d))
+
+
 ## v0.0.0 (2024-05-04)
 
 ### Chore
