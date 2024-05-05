@@ -45,14 +45,13 @@ jobs:
       # TODO: re-enable when I can be bothered to fix
       - name: check types
         run: pdm run pyright
-      - name: build
-        run: pdm build
       - name: test
         run: pdm run pytest
+      - name: build
+        run: pdm build
 
   release:
     needs: build
-    name: upload release to PyPI
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -74,6 +73,8 @@ jobs:
         with:
           cache: true
           python-version: "3.11"
+      - name: Install dependencies
+        run: pdm install
       - name: Semantic Release
         id: release
         uses: python-semantic-release/python-semantic-release@master
