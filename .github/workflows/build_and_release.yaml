@@ -16,7 +16,7 @@ on:
         required: false
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -42,16 +42,13 @@ jobs:
         run: pdm run ruff format --check
       - name: check linting
         run: pdm run ruff check
-      # TODO: re-enable when I can be bothered to fix
       - name: check types
         run: pdm run pyright
       - name: test
         run: pdm run pytest
-      - name: build
-        run: pdm build
 
-  release:
-    needs: build
+  build_and_release:
+    needs: test
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -75,6 +72,8 @@ jobs:
           python-version: "3.11"
       - name: Install dependencies
         run: pdm install
+      - name: Build
+        run: pdm build
       - name: Semantic Release
         id: release
         uses: python-semantic-release/python-semantic-release@master
