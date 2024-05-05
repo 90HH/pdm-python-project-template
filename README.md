@@ -8,6 +8,12 @@ More features that could be added at some point:
 - Documentation with Sphinx
 - Standard issue templates
 
+Install the template via: 
+```
+pdm init https://github.com/90HH/pdm-python-project-template
+```
+Then replace this section with your own text
+
 # Quickstart
 
 ```bash
