@@ -2,6 +2,13 @@
 
 
 
+## v0.1.6 (2024-05-05)
+
+### Fix
+
+* fix: pypi ([`908fc9b`](https://github.com/90HH/pdm-python-project-template/commit/908fc9b25e75cca69e5b07783b9af4e857c64ad2))
+
+
 ## v0.1.5 (2024-05-05)
 
 ### Fix
