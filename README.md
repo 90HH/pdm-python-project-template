@@ -1,4 +1,4 @@
-# PDM Python Project Template
+# pdm-python-project-template
 ![Github Actions](https://github.com/90HH/pdm-python-project-template/actions/workflows/tests.yaml/badge.svg)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm-project.org)

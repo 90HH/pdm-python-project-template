@@ -5,7 +5,9 @@ description = "A template for python projects in PDM"
 authors = [
     {name = "Daniel Tan", email = "dtch1997@users.noreply.github.com"},
 ]
-dependencies = []
+dependencies = [
+    "pre-commit>=3.7.1",
+]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
